@@ -1,0 +1,471 @@
+/*1023 - 1170px*/
+@media screen and (max-width: 1200px) {
+    #header-container {
+        padding: 0 15px;
+    }
+
+    #main-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #about-us-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #menu-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #macaroons {
+        flex-wrap: wrap;
+        max-width: 670px;
+        margin: 8px auto 0 auto;
+        justify-content: center;
+    }
+
+    #macaroons .macaroon-item {
+        margin-top: 135px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    #order-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #footer-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+/*767px - 1023px*/
+@media screen and (max-width: 1023px) {
+
+    #header-container {
+        max-width: 728px;
+    }
+
+    #header-container div.phone {
+        display: none;
+    }
+
+    #header-items {
+        margin-right: 200px;
+    }
+
+    #main-container {
+        max-width: 728px;
+        flex-direction: column;
+        padding-top: 70px;
+        position: relative;
+        align-items: flex-start;
+    }
+
+    #main-text {
+        padding-bottom: 30px;
+    }
+
+    #main-text-title {
+        max-width: 848px;
+    }
+
+    #main-text p {
+        margin-top: 74px;
+    }
+
+    #choice-macaroon {
+        margin-top: 60px;
+        margin-bottom: 270px;
+    }
+
+    #main-image {
+        position: absolute;
+        bottom: 57px;
+        right: 37px;
+    }
+
+    #main-container {
+        max-width: 728px;
+    }
+
+    #natural-macaroon {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    #natural-macaroon-text {
+        order: 1;
+        text-align: center;
+
+    }
+
+    #natural-macaroon-title {
+        max-width: 475px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #natural-macaroon-img {
+        order: 2;
+        margin-top: 42px;
+    }
+
+    #natural-macaroon-img > img {
+        max-width: 302px;
+    }
+
+    #natural-macaroon-text p {
+        margin: 60px auto 0 auto;
+        max-width: 670px;
+    }
+
+    #advantages {
+        max-width: 495px;
+        margin: 0 auto;
+    }
+
+    #advantages .advantage-item {
+        margin-top: 115px;
+        text-align: center;
+    }
+
+    #advantages .advantage-item .advantage-item-number  {
+        margin: 0 auto;
+    }
+
+    #menu-container {
+        max-width: 728px;
+    }
+
+
+    #macaroons .macaroon-item {
+        margin-top: 135px;
+    }
+
+    #order-container {
+        padding: 120px 20px;
+        max-width: 728px;
+    }
+
+    #order-main {
+        position: relative;
+    }
+
+
+    #order-main-img {
+        position: absolute;
+        bottom: -90px;
+        right: 0;
+    }
+
+    #strawberry-small {
+        top: 140px;
+        right: -222px;
+    }
+
+    #order-main-img > img:nth-child(1) {
+        max-width: 350px;
+    }
+
+    #footer-container {
+        max-width: 728px;
+    }
+
+    #rights {
+        margin-top: 15px;
+    }
+
+}
+
+
+/*601px - 767px*/
+@media screen and (max-width: 767px) {
+
+    #header-items {
+        margin: 0 auto;
+    }
+
+    #main-container {
+        padding-bottom: 43px;
+        align-items: center
+    }
+
+    #main-text {
+        margin-bottom: 38px;
+    }
+
+    #main-text-title {
+        font-size: 31px;
+        text-align: center;
+    }
+
+    #main-text > p {
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #choice-macaroon {
+        margin-top: 43px;
+    }
+
+    #main-image {
+        max-width: 252px;
+        position: relative;
+        right: auto;
+        bottom: auto;
+    }
+
+    #main-image > img {
+        width: 100%;
+    }
+
+    #choice-macaroon {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+
+    #natural-macaroon-title {
+        font-size: 30px;
+    }
+
+    #natural-macaroon-text > p {
+        margin-top: 40px;
+        padding: 0 15px;
+        font-size: 16px;
+    }
+
+    #natural-macaroon-img {
+        margin-top: 62px;
+    }
+
+    #natural-macaroon-img img {
+        max-width: 300px;
+    }
+
+    #advantages {
+        margin-top: 20px;
+        justify-content: space-around;
+    }
+
+
+    #advantages .advantage-item {
+        margin-top: 72px;
+        max-width: 160px;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+
+    #advantages .advantage-item .advantage-item-title {
+        font-size: 18px;
+    }
+
+    #advantages .advantage-item .advantage-item-text {
+        font-size: 13px;
+    }
+
+    #advantages {
+        padding-bottom: 96px;
+    }
+
+    #menu-container {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    #make-your-choice {
+        font-size: 30px;
+    }
+
+    #macaroons .macaroon-item {
+        margin-top: 122px;
+        margin-bottom: 20px;
+    }
+
+    #macaroons {
+        justify-content: center;
+    }
+
+    #order-container {
+        margin-bottom: 0;
+        padding: 100px 15px 77px 15px;
+    }
+
+    #order-main-form-title {
+        font-size: 30px;
+    }
+
+
+    #order-main-form p {
+        margin-top: 42px;
+        padding-bottom: 20px;
+        max-width: 340px;
+        font-size: 16px;
+    }
+
+    #order-main-img img:nth-child(1) {
+        opacity: 0;
+    }
+
+    #strawberry-small {
+        display: none;
+    }
+
+    #strawberry-big {
+        left: 270px;
+        top: -145px;
+    }
+
+    #order-container .order-input, #order-main-form button {
+        max-width: 345px;
+    }
+
+    #footer-container {
+        flex-direction: column;
+    }
+
+    #footer-container {
+        padding: 70px 0 50px 0;
+        text-align: center;
+    }
+
+    #rights {
+        display: none;
+    }
+
+    #rights-adaptive {
+        display: block;
+    }
+
+    #logo-rights > div.logo {
+        order: 1;
+    }
+
+
+    #footer-container > div.phone {
+        order: 2;
+        margin-top: 40px;
+    }
+
+    #instagram {
+        order: 3;
+        margin-top: 40px;
+    }
+
+    #rights-adaptive {
+        order: 4;
+        margin-top: 40px;
+    }
+}
+
+/*402px - 599px*/
+@media screen and (max-width: 600px) {
+    #header-container {
+        flex-direction: column;
+    }
+
+    #header-items {
+        margin-top: 22px;
+    }
+}
+
+/*375px - 402px*/
+@media screen and (max-width: 402px) {
+    #advantages .advantage-item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #advantages .advantage-item {
+        max-width: 220px;
+    }
+
+}
+
+/*320px - 375px*/
+@media screen and (max-width: 376px) {
+
+    #advantages {
+        justify-content: space-between;
+    }
+
+    #advantages .advantage-item {
+        max-width: 158px;
+        padding: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #header-container {
+        flex-direction: row;
+align-items: center;
+    }
+
+    #main-container {
+        padding-top: 40px;
+    }
+
+
+    #mobile-icon {
+        position: static;
+        display: flex;
+        width: 30px;
+        height: 30px;
+    }
+
+    #mobile-icon svg {
+        width: 100%;
+        height: 100%;
+        fill: rgb(254 252 252);
+    }
+
+
+    #header-items {
+        display: none;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background: #eaa3a3db;
+        flex-direction: column;
+        z-index: 99;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        left: 0;
+    }
+
+    #header-items svg {
+        display: block;
+        width: 30px;
+        height: 30px;
+        fill: rgb(119, 11, 29);
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    #header-items .header-item {
+        margin-top: 25px;
+    }
+
+    #header-items.open {
+        display: flex;
+    }
+
+
+    #order-container .order-input, #order-main-form button {
+        width: 100%;
+    }
+}
